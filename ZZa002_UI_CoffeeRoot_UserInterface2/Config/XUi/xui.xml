@@ -1,0 +1,10 @@
+﻿<configs>
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
+		<window name="windowTargetBar" anchor="CenterTop" />
+	</append>
+	<set xpath="/xui/ruleset[@name='default']/@scale">1.04</set>
+	<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">0.9</set>
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+		<window name="CRlogo" anchor="RightTop" />
+	</append>
+</configs>
